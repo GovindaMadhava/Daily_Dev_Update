@@ -20,3 +20,13 @@ https://www.youtube.com/watch?v=dLRA1lffWBw
 https://www.youtube.com/watch?v=o6xikISiz2w&t=57s 
 
 Went through 1 latest merge request on Audacity repo: studied how they approach a problem, the code changes they suggest, the level of problems that are attempted.
+
+03 Feb: 
+With ChatGPT's help, I added FreqWindow.cpp to the list of compiling files within Build Phases tab, previoudly only 5 main files were being compiled.
+Learnt that project settins and target settings are 2 different things. Project settings just has "Info, Build Settings, Phase Dependencies" tabs while Target tab has Phases and much more.
+
+Analysing and the file (under product title bar) is successful, but on file compilation it throws "'FreqWindow.cpp' is not a member of any targets in the current scheme that build for analyzing".
+
+Setting up a custom GPT to explain C++ code portions in detail, for me to understand the source files and attempt to circle the code pertaining to the issue/bug.
+
+
