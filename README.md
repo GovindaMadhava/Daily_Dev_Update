@@ -36,3 +36,7 @@ Tried the Unix cmake build command instead of xcode.
 04 Feb Tuesday:
 
 Conan wasn't being installed, so manually installed it using pip. 
+"⁠ cmake -G "Unix Makefiles" .. " for the build.
+Build and configuration done.
+Used this cmd since I didn't use xcode for the build: "make -j$(sysctl -n hw.ncpu)"
+
