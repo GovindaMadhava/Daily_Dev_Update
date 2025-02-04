@@ -21,12 +21,18 @@ https://www.youtube.com/watch?v=o6xikISiz2w&t=57s
 
 Went through 1 latest merge request on Audacity repo: studied how they approach a problem, the code changes they suggest, the level of problems that are attempted.
 
-03 Feb: 
+03 Feb Monday: 
 With ChatGPT's help, I added FreqWindow.cpp to the list of compiling files within Build Phases tab, previoudly only 5 main files were being compiled.
 Learnt that project settins and target settings are 2 different things. Project settings just has "Info, Build Settings, Phase Dependencies" tabs while Target tab has Phases and much more.
 
 Analysing and the file (under product title bar) is successful, but on file compilation it throws "'FreqWindow.cpp' is not a member of any targets in the current scheme that build for analyzing".
 
-Setting up a custom GPT to explain C++ code portions in detail, for me to understand the source files and attempt to circle the code pertaining to the issue/bug.
+Setting up a BlackBox Agent in VS Code to explain C++ code portions in detail, for me to understand the source files and attempt to circle the code pertaining to the issue/bug.
 
+Along with my brother's guidance, I re-installed release-3.7.1 since Master was unstable. Problem with conan installation. Read error logs and config.logs, learnt git status, checkout, manual commands, -G means generate in "cmake -GXcode ../audacity". Installed "oh my zsh" on the terminal. Should figure out how to correct the error and run audacity app.
 
+Tried the Unix cmake build command instead of xcode. 
+
+04 Feb Tuesday:
+
+Conan wasn't being installed, so manually installed it using pip. 
