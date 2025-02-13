@@ -2,6 +2,17 @@
 Everyday log of my progress for the Audacity Open Source code contribution journey
 
 *****************************************************************
+13 Feb Thursday: 
+
+Most bugs are obslete since Audacity repo is being moved from wxWidgets to Qt.
+Asked more questions on which code would be retained so that I can work on that section.
+*****************************************************************
+12 Feb Wednesday: 
+
+Changes in AllThemeResources.h not reflected in the debug build. So made changes in line 291 and 376 in FreqWindow.cpp file by manually coding the color codes (255, 200, 100).
+Able to produce dark pink color text in frequency spectrum.
+Asked question in Audacity forum regarding #7154. 
+*****************************************************************
 05 Feb Wednesday: 
 
 Trying to understand the 2 errors and solve them.
