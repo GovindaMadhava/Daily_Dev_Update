@@ -1,6 +1,13 @@
 # Daily_Dev_Update
 Everyday log of my progress for the Audacity Open Source code contribution journey
 
+17 Feb Monday:
+
+*****************************************************************
+14 Feb Friday:
+
+Look into Audacity4, Backlog repos for new issues.
+Discuss how the software developement process works, shortlist a few issues to start exploring.
 *****************************************************************
 13 Feb Thursday: 
 
