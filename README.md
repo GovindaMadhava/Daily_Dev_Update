@@ -5,7 +5,7 @@ Everyday log of my progress for the Audacity Open Source code contribution journ
 
 Made the relevant change in colors.txt and created a Pull Request (https://github.com/audacity/audacity/pull/8238)
 
-Working on building Au4 on local machine using the build instructions.
+Working on building Au4 on local machine using the build instructions
 *****************************************************************
 14 Feb Friday:
 
