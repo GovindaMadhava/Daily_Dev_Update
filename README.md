@@ -1,11 +1,20 @@
 # Daily_Dev_Update
 Everyday log of my progress for the Audacity Open Source code contribution journey
 
+18 Feb Tuesday:
+
+Working on building Au4 on local machine using the build instructions.
+Qt was causing problems. Manually installed it.
+Converted "configure" file from Windows style to linux using "dos2unix configure" command.
+ls -l <filename> searches for a file within a dir
+*****************************************************************
 17 Feb Monday:
 
 Made the relevant change in colors.txt and created a Pull Request (https://github.com/audacity/audacity/pull/8238)
-
-Working on building Au4 on local machine using the build instructions
+The target release was set to release-3.7.1, changed it to release-3.7.2
+Learnt cherry-pick command to pick only my commit and leave out the rest of the PRs in this release. Then pushed my PR once again.
+My PR: https://github.com/audacity/audacity/pull/8239
+Closed bug: https://github.com/audacity/audacity/issues/7154
 *****************************************************************
 14 Feb Friday:
 
