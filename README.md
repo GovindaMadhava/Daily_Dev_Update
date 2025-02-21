@@ -1,6 +1,20 @@
 # Daily_Dev_Update
 Everyday log of my progress for the Audacity Open Source code contribution journey
 
+20 Feb Thursday:
+
+Learnt how to use a VPN via YT vid
+Installed Qt 6.2.4 using a VPN (vpngate and macOS build in network settings)
+
+Took 7 hours to download the 4.61 gb Qt requirements. 
+*****************************************************************
+19 Feb Wednesday:
+
+Qt installer not working. Manual installation caused missing files error (Qt_Network_Auth.pri)
+LWinterberg recommended me to use a VPN since my IP could be getting blocked.
+
+Revised how a program is executed in cpp, how a compiler works (Cherno YT)
+*****************************************************************
 18 Feb Tuesday:
 
 Working on building Au4 on local machine using the build instructions.
