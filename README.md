@@ -1,6 +1,10 @@
 # Daily_Dev_Update
 Everyday log of my progress for the Audacity Open Source code contribution journey
 
+21 Feb Friday:
+
+AU4 is up and running. Need to sort the errors/bugs I'm interested in and start working.
+*****************************************************************
 20 Feb Thursday:
 
 Learnt how to use a VPN via YT vid
