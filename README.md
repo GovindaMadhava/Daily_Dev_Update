@@ -1,9 +1,16 @@
 # Daily_Dev_Update
 Everyday log of my progress for the Audacity Open Source code contribution journey
 
+23 Feb Sunday:
+
+Looking for general structure of bindings in application using wxWidgets like Audacity.
+*****************************************************************
 21 Feb Friday:
 
 AU4 is up and running. Need to sort the errors/bugs I'm interested in and start working.
+I chose #8115 https://github.com/audacity/audacity/issues/8115
+
+Found that keyboard shortcuts are handled through bindings. Searching through Track.cpp, trackeditactionscontroller.cpp, KeyboardCapture.cpp, KeyView.cpp to find where keyboard shortcuts are processed.
 *****************************************************************
 20 Feb Thursday:
 
