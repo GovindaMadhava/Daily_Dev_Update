@@ -2,22 +2,25 @@
 Everyday log of my progress for the Audacity Open Source code contribution journey
 
 24 Feb Monday:
-Looking for general structure of bindings in application using wxWidgets like Audacity.
 
-Used "grep -r <text-pattern> ." command to find wxk_delete in audacity repo.
+Analysis of UI-Based Track Deletion Logs
+When you delete a track using the right-click Delete option, the logs show:
+1. Audacity triggers the correct action: ActionsDispatcher::doDispatch | try call action: track-delete
+2. Audacity recognizes a track deletion event: Au3TrackeditProject::onTrackListEvent | trackId: -1, type: DELETION
+3. Errors related to QML (GUI) components appear, but the deletion still proceeds.
 
-TrackPanel.cpp: 
-No WXK_DELETE found.
-The function OnTrackListDeletion() is responsible for handling track deletions, but it is not directly linked to WXK_DELETE.
+Key Difference Between UI Delete & Shortcut Delete
 
-KeyboardCapture.cpp:
-No WXK_DELETE found.
-This file primarily deals with capturing key events before they reach wxWidgets, but nothing suggests it's blocking WXK_DELETE.
+1. UI Deletion (Right-click → Delete) Works
+    * The "track-delete" action is dispatched.
+    * onTrackListEvent detects and processes the deletion.
+2. Shortcut Key Deletion (Del Key) Doesn't Work
+    * The "delete" action is dispatched instead of "track-delete".
+    * No onTrackListEvent appears, meaning the track deletion event never happens.
+Logs suggests that "delete" and "multi-clip-delete" are being dispatched when you press the Delete key.
+However, when deleting a track via UI, "track-delete" is used instead.
 
-MenuCreator.cpp:
-Found WXK_DELETE!
-It maps WXK_DELETE to "Delete", which suggests it might be part of a keybinding system.
-It calls cm.HandleCommandEntry(entry, flags, false, &temp);, which could be executing the actual delete command.
+Changes in /Users/govindamadhavabs/audacity/src/app/configs/data/shortcuts.xml and bool Au3Interaction::deleteTracks(const TrackIdList& trackIds) function in audacity/src/trackedit/internal/au3/au3interaction.cpp were unsuccessful.
 *****************************************************************
 21 Feb Friday:
 
