@@ -1,9 +1,23 @@
 # Daily_Dev_Update
 Everyday log of my progress for the Audacity Open Source code contribution journey
 
-23 Feb Sunday:
-
+24 Feb Monday:
 Looking for general structure of bindings in application using wxWidgets like Audacity.
+
+Used "grep -r <text-pattern> ." command to find wxk_delete in audacity repo.
+
+TrackPanel.cpp: 
+No WXK_DELETE found.
+The function OnTrackListDeletion() is responsible for handling track deletions, but it is not directly linked to WXK_DELETE.
+
+KeyboardCapture.cpp:
+No WXK_DELETE found.
+This file primarily deals with capturing key events before they reach wxWidgets, but nothing suggests it's blocking WXK_DELETE.
+
+MenuCreator.cpp:
+Found WXK_DELETE!
+It maps WXK_DELETE to "Delete", which suggests it might be part of a keybinding system.
+It calls cm.HandleCommandEntry(entry, flags, false, &temp);, which could be executing the actual delete command.
 *****************************************************************
 21 Feb Friday:
 
