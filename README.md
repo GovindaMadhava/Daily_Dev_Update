@@ -1,6 +1,16 @@
 # Daily_Dev_Update
 Everyday log of my progress for the Audacity Open Source code contribution journey
 
+25 Feb Tuesday:
+
+Started my day with a rejection from MIT Media Lab for MS in MusicTech. Meh... feel sad but life still goes on..
+
+Revised the diff btw function vs method vs struct vs class, different types of methods.
+
+Analysed importShortcutsFromFile() from /Users/govindamadhavabs/audacity/_deps/muse_framework-src/framework/shortcuts/view/shortcutsmodel.cpp
+
+Analysed shortcutsinstancemodel.cpp and started shortcutsregister.cpp
+*****************************************************************
 24 Feb Monday:
 
 Analysis of UI-Based Track Deletion Logs
