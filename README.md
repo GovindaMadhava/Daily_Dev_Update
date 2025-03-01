@@ -1,6 +1,39 @@
 # Daily_Dev_Update
 Everyday log of my progress for the Audacity Open Source code contribution journey
 
+01 Mar Saturday:
+
+Trying to find the code-flow when delete key is pressed and how track-delete aciton is called. But I'm still not able to find alternatives to trackeditactionscontroller.cpp which is present in au3 dir
+
+Tried injecting a FocusScope within trackslistclipsmodel.cpp and I was able to confirm that delete key could be recognised, but the code didn't take further action.
+
+Analysed trackList() in au3trackeditinteractions.cpp, TracksListModel::onTrackRemoved() in trackslistmodel.cpp, TracksListClipsModel::load() in trackslistclipsmodel.cpp
+*****************************************************************
+28 Feb Friday:
+
+Added functions:
+* OnDeleteTrack() → FileMenus.cpp (for menu commands)
+* DeleteTrack() → ProjectTrackManager.cpp (actual track deletion)
+* Shortcut entry → shortcuts.xml
+
+Created a PR and pushed my code which was a partial fix to #8115! (https://github.com/audacity/audacity/pull/8351)
+
+PR closed since I did the changes in au3 legacy and au4 uses src. Investigating files in src to do the same changes
+*****************************************************************
+27 Feb Thursday:
+Tried injecting a log stmt in shortcutsregister.cpp which didn’t work, so delete is not present and not recognised too.
+
+Also, clip is deleted on delete keypress (via delete -> multi-clip-delete)
+But when I click on left track panel and press delete -> press not even recognised in log.
+Then again when I try to delete clip via keypress, that is not recognised too!! STRANGE how it changes behaviour once I click on track panel??
+
+## 1 idea is to investigate Ctrl+S and see how that works and write delete-track in the same way:-
+
+Ctrl+S is mapped inside FileMenus.cpp:
+"Ctrl+S" triggers the OnSave function.
+OnSave() calls: projectFileManager.Save();
+it dispatches a save action for the current project.
+*****************************************************************
 25 Feb Tuesday:
 
 Started my day with a rejection from MIT Media Lab for MS in MusicTech. Meh... feel sad but life still goes on..
@@ -60,7 +93,7 @@ Qt was causing problems. Manually installed it.
 Converted "configure" file from Windows style to linux using "dos2unix configure" command.
 ls -l <filename> searches for a file within a dir
 *****************************************************************
-17 Feb Monday:
+**17 Feb Monday: MY FIRST PR!!
 
 Made the relevant change in colors.txt and created a Pull Request (https://github.com/audacity/audacity/pull/8238)
 The target release was set to release-3.7.1, changed it to release-3.7.2
