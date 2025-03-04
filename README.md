@@ -8,7 +8,8 @@ Investigating what exactly is wrong with track panel and keyboard connection.
 03 Mar Monday:
 
 Reverted changes in au3 files, the partial fix still works.
-Created a PR with the modification in shortcuts.xml
+Created a PR with the modification in shortcuts.xml : https://github.com/audacity/audacity/pull/8362
+
 Got a detailed good comment from a reviewer requesting changes.
 *****************************************************************
 01 Mar Saturday:
