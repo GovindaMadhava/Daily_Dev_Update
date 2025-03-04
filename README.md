@@ -1,6 +1,16 @@
 # Daily_Dev_Update
 Everyday log of my progress for the Audacity Open Source code contribution journey
 
+04 Mar Tuesday:
+
+Investigating what exactly is wrong with track panel and keyboard connection.
+*****************************************************************
+03 Mar Monday:
+
+Reverted changes in au3 files, the partial fix still works.
+Created a PR with the modification in shortcuts.xml
+Got a detailed good comment from a reviewer requesting changes.
+*****************************************************************
 01 Mar Saturday:
 
 Trying to find the code-flow when delete key is pressed and how track-delete aciton is called. But I'm still not able to find alternatives to trackeditactionscontroller.cpp which is present in au3 dir
