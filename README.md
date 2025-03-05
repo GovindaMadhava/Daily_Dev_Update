@@ -1,6 +1,10 @@
 # Daily_Dev_Update
 Everyday log of my progress for the Audacity Open Source code contribution journey
 
+05 Mar Wednesday:
+
+
+*****************************************************************
 04 Mar Tuesday:
 
 Investigating what exactly is wrong with track panel and keyboard connection.
