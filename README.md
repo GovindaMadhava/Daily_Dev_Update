@@ -4,6 +4,11 @@ Everyday log of my progress for the Audacity Open Source code contribution journ
 04 Mar Tuesday:
 
 Investigating what exactly is wrong with track panel and keyboard connection.
+
+What trackeditactionscontroller.cpp globalDelete() does: 
+1. If a time selection exists, delete only the selected time range.
+2. If no clips are selected, exit without doing anything.
+3. If clips are selected, delete them.
 *****************************************************************
 03 Mar Monday:
 
