@@ -1,9 +1,17 @@
 # Daily_Dev_Update
 Everyday log of my progress for the Audacity Open Source code contribution journey
 
+06 Mar Thursday:
+
+"Cmd + Shif" shortcuts are detected and work well, while individual delete or backspace is not.
+
+Discuss with my brother possible options to go ahead and tackle the issue.
+
+
+*****************************************************************
 05 Mar Wednesday:
 
-
+Revise compiler Cherno YT
 *****************************************************************
 04 Mar Tuesday:
 
