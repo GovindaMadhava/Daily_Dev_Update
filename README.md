@@ -1,13 +1,15 @@
 # Daily_Dev_Update
 Everyday log of my progress for the Audacity Open Source code contribution journey
 
+17 Mar Thursday:
+
+After discussions and thinking, decided to switch my focus towards bettering myself at ML since my goals and future roles and much more aligned towards ML than generics Software Engg.
+*****************************************************************
 06 Mar Thursday:
 
-"Cmd + Shif" shortcuts are detected and work well, while individual delete or backspace is not.
+"Cmd + Shift" shortcuts are detected and work well, while individual delete or backspace is not.
 
 Discuss with my brother possible options to go ahead and tackle the issue.
-
-
 *****************************************************************
 05 Mar Wednesday:
 
