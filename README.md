@@ -1,8 +1,20 @@
 # Day In The Life Of:
 Everyday log of my progress in Machine Learning, my project development and learnings
 
+Mar 28 Friday: 
+
+Relation btw Heisenberg's Uncertainty Principle and FT: https://www.youtube.com/watch?v=MBnnXbOM5S4
 *****************************************************************
-Mar 24: Took 1 week break from life!
+Mar 27 Thursday: Fourier Transforms 
+
+https://www.youtube.com/watch?v=spUNpyF58BY
+https://youtu.be/8V6Hi-kP9EE?si=p7yIU2K08B3g-ruk
+https://www.youtube.com/watch?v=U7ii8agAhIs
+https://www.youtube.com/watch?v=G74t5az6PLo
+https://www.youtube.com/watch?v=gz6AKW-R69s
+https://www.youtube.com/watch?v=iOsGkk63NfE
+*****************************************************************
+Mar 24 Monday: Took 1 week break from life!
 
 Started lapping F1 Emilia-Romagna Imola GP 2024 + Finalise ML resources to start learning
 *****************************************************************
