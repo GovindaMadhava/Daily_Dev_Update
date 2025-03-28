@@ -13,7 +13,7 @@ https://www.youtube.com/watch?v=gz6AKW-R69s | https://www.youtube.com/watch?v=iO
 *****************************************************************
 Mar 26 Wednesday:
 
-Mailed profs Vinoo Alluri (IIIT Hyd), Prof Vipul Arora (IIT Kanpur), Swar-Studio UCSC, Philip Oehrly (FastF1.com) regarding research opportunities and contributing my F1 project to FastF1.com
+Mailed Prof Vinoo Alluri (IIIT Hyd), Prof Vipul Arora (IIT Kanpur), Swar-Studio UCSC, Philip Oehrly (FastF1.com) regarding research opportunities and contributing my F1 project to FastF1.com
 *****************************************************************
 Mar 24 Monday: Took 1 week break from life!
 
