@@ -1,6 +1,11 @@
 # Daily_Dev_Update
-Everyday log of my progress for the Audacity Open Source code contribution journey
+Everyday log of my progress in Machine Learning, my project development and learnings
 
+*****************************************************************
+Mar 24: Took 1 week break from life!
+
+Started lapping F1 Emilia-Romagna Imola GP 2024 + Finalise ML resources to start learning
+*****************************************************************
 17 Mar Thursday:
 
 After discussions and thinking, decided to switch my focus towards bettering myself at ML since my goals and future roles and much more aligned towards ML than generics Software Engg.
