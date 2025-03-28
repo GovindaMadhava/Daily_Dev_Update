@@ -3,7 +3,7 @@ Everyday log of my progress in Machine Learning, my project development and lear
 
 Mar 28 Friday: 
 
-Relation btw Heisenberg's Uncertainty Principle and FT: https://www.youtube.com/watch?v=MBnnXbOM5S4
+Relation btw Heisenberg's Uncertainty Principle and FT: https://www.youtube.com/watch?v=MBnnXbOM5S4 [3Blue1Brown YT vid]
 *****************************************************************
 Mar 27 Thursday: Understanding Fourier Transforms 
 
