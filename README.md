@@ -1,4 +1,4 @@
-# Daiy_in_the_life_of:
+# Day In The Life Of:
 Everyday log of my progress in Machine Learning, my project development and learnings
 
 *****************************************************************
