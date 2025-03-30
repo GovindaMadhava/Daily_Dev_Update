@@ -4,7 +4,7 @@ Everyday log of my progress in Machine Learning, my project development and lear
 Mar 29 Saturday:
 
 Finished noting lap times of Emilia-Romagna GP.
-Finished 12 drivers' povs of Dutch GP.
+Finished 12 drivers' povs of Dutch GP
 *****************************************************************
 Mar 28 Friday: 
 
