@@ -1,6 +1,11 @@
 # Day In The Life Of:
 Everyday log of my progress in Machine Learning, my project development and learnings
 
+Mar 30 Sunday:
+
+Finished lap times of Dutch GP. Started with US Austin GP.
+Organised the issues in F1 log + noted improvisations to be made.
+*****************************************************************
 Mar 29 Saturday:
 
 Finished noting lap times of Emilia-Romagna GP.
