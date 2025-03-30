@@ -1,6 +1,11 @@
 # Day In The Life Of:
 Everyday log of my progress in Machine Learning, my project development and learnings
 
+Mar 29 Saturday:
+
+Finished noting lap times of Emilia-Romagna GP.
+Finished 12 drivers' povs of Dutch GP.
+*****************************************************************
 Mar 28 Friday: 
 
 Relation btw Heisenberg's Uncertainty Principle and FT: https://www.youtube.com/watch?v=MBnnXbOM5S4 [3Blue1Brown YT vid]
