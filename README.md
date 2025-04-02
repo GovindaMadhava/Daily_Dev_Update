@@ -2,10 +2,13 @@
 Everyday log of my progress in Machine Learning, my project development and learnings
 
 Apr 02 Wednesday:
-Continued Austin timing, ;ast 2 driver povs remain. Abu Dhabi GP last 2 drivers footage remain. Aim to complete it overnight and start Las Vegas next.
+
+Continued Austin timing, last 2 driver povs remain. Abu Dhabi GP last 2 drivers footage remain. Aim to complete it overnight and start Las Vegas next.
+
+Setup meetings with Uri Nieto and Philipp from FastF1.com
+
 Completed the Amazon SDE coding test. Got a call to take up final interview rounds -> declined since I decided to go into GaTech Fall 2025.
 Completed steps for my GaTech account BuzzCard and requested i20 form procedure to be initiateed.
-Setup meetings with Uri Nieto and Philipp from FastF1.com
 *****************************************************************
 
 Apr 01 Tuesday:
