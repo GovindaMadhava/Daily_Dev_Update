@@ -1,6 +1,13 @@
 # Day In The Life Of:
 Everyday log of my progress in Machine Learning, my project development and learnings
 
+Apr 07 Monday:
+*****************************************************************
+Apr 05 & 06: Indian Music Workshop @IIT Hyderabad!
+
+Got to meet Prof. Xavier Serra(UPF-MTG), Zack Zukowski (Stability AI) and many other students(UPF, QMUL) and professionals(Microsoft AI, Beatoven.ai) in the MusicTech field.
+Discussed my F1 proj ideas and got valuable inputs.
+*****************************************************************
 Apr 02 Wednesday:
 
 Continued Austin timing, last 2 driver povs remain. Abu Dhabi GP last 2 drivers footage remain. Aim to complete it overnight and start Las Vegas next.
