@@ -1,7 +1,35 @@
 # Day In The Life Of:
 Everyday log of my progress in Machine Learning, my project development and learnings
+Apr 09 Thursday:
 
+Worked on the following:
+How to reduce loss + improve accuracy without overfitting? (Apart from increasing epochs 35->50)
+Tried normalisation, less aggressive learning rate, adding dropout layers after every convolutional layer.
+Finished timing British GP, continuing with Singapore GP.
+*****************************************************************
+Apr 08 Tuesday:
+Run train.py on 6-race dataset -> got 08Apr F1 models:
+
+Team Classification:
+- Number of teams: 10
+- Test Accuracy: 87.02%
+- Test Loss: 0.6784
+
+Driver Classification:
+- Number of drivers: 22
+- Test Accuracy: 78.42%
+- Test Loss: 0.8180
+
+Track Classification:
+- Number of tracks: 6
+- Test Accuracy: 20.68%
+- Test Loss: 1.7262
+*****************************************************************
 Apr 07 Monday:
+
+Mail Thomas Nuttall, Prof. Xavier Serra from UPF-MTG, Barcelona regarding research opportunity.
+Mail GaTech admin office to initiate i20 and about financial documents.
+Continue with Mexico recording race footage.
 *****************************************************************
 Apr 05 & 06: Indian Music Workshop @IIT Hyderabad!
 
