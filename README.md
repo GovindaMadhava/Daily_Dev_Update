@@ -1,13 +1,48 @@
 # Day In The Life Of:
 Everyday log of my progress in Machine Learning, my project development and learnings
+
+Apr 11 Saturday:
+
+New feature extraction + CNN code
+Finished timing Singapore GP.
+
+Ran on the 12 race dataset. Error: .h5 -> .keras model extension.
+*****************************************************************
+Apr 10 Friday: 
+
+Results for the mel-spectrogram model:
+Team Classification:
+- Number of teams: 10
+- Test Accuracy: 96.06%
+- Test Loss: 0.4057
+
+Driver Classification:
+- Number of drivers: 22
+- Standard Test Accuracy: 89.53%
+- Team-Aware Test Accuracy: 90.42%
+- Test Loss: 0.5439
+
+Track Classification:
+- Number of tracks: 6
+- Test Accuracy: 87.56%
+- Test Loss: 1.1952
+
+New model with ResNet50 pre-trained model
+
+New csv for 12-race dataset
+
+Separated pit stops to another folder.
+*****************************************************************
 Apr 09 Thursday:
 
-Worked on the following:
 How to reduce loss + improve accuracy without overfitting? (Apart from increasing epochs 35->50)
 Tried normalisation, less aggressive learning rate, adding dropout layers after every convolutional layer.
 Finished timing British GP, continuing with Singapore GP.
 *****************************************************************
 Apr 08 Tuesday:
+
+Chat with Jon Myers -> UC Santa Cruz, Swara Studio IDTAP project.
+
 Run train.py on 6-race dataset -> got 08Apr F1 models:
 
 Team Classification:
