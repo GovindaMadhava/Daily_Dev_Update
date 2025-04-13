@@ -1,14 +1,47 @@
 # Day In The Life Of:
 Everyday log of my progress in Machine Learning, my project development and learnings
 
-Apr 11 Saturday:
+Aor 13 Sunday:
+
+Got awesome performance from yesrterday's model. Really happy with the scores!
+
+TEAM Results:
+Test Accuracy: 0.9687
+F1 Score: 0.9688
+
+DRIVER Results:
+Test Accuracy: 0.7463
+F1 Score: 0.7444
+
+TRACK Results:
+Test Accuracy: 0.7973
+F1 Score: 0.7976
+
+Scripted a custom predictor.py code to display Pitch Contours + top 3 predictions on a random audio file. And it works soooo well!! Wow I'm impressed. After that setback with a bad model yesterday, this was a relief.
+
+But I can't settle. Improved the model to make it more robust. Added a team-driver awareness since team was performing extremely well and driver model could be leveraged over that.
+
+Now editing the raw race footage for 4 more tracks since anyway I had the lap timings + for now this would be the last iteration I plan to run -> should move to writing the arXiv pre-print paper next.
+*****************************************************************
+Apr 12 Saturday:
+
+Tested the Apr 09 model on a few test audio and was NOT satisfied with its performance at all! I think those scores are the validation results, NOT TEST results.
+
+Decided to revamp the code: worked on feature extraction + CNN BiLSTM model
+Started running the code tonight
+
+Decided to stop the timing and other activities since it would take too long and I'm already running late. We anyway have a lot of data to play with.
+
+Also, started backing up data from hard drive to IDrive since the TB was getting too hot during processing and I was afraid I might loose the valuable data!
+*****************************************************************
+Apr 11 Friday:
 
 New feature extraction + CNN code
 Finished timing Singapore GP.
 
 Ran on the 12 race dataset. Error: .h5 -> .keras model extension.
 *****************************************************************
-Apr 10 Friday: 
+Apr 10 Thursday: 
 
 Results for the mel-spectrogram model:
 Team Classification:
@@ -33,7 +66,7 @@ New csv for 12-race dataset
 
 Separated pit stops to another folder.
 *****************************************************************
-Apr 09 Thursday:
+Apr 09 Wednesday:
 
 How to reduce loss + improve accuracy without overfitting? (Apart from increasing epochs 35->50)
 Tried normalisation, less aggressive learning rate, adding dropout layers after every convolutional layer.
