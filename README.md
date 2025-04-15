@@ -1,7 +1,27 @@
 # Day In The Life Of:
 Everyday log of my progress in Machine Learning, my project development and learnings
 
-Aor 13 Sunday:
+*****************************************************************
+Apr 15 Tuesday:
+
+Got good results: team-99.24, driver-87.76, track-91.81
+
+Unfortuntely: branching code within build_model is incorrect: track model trained on driver model's architecture.
+And driver model isn't performing well. Bias towards Logan Sargeant.
+The team-aware driver architecture has not worked.
+
+New code "train_17Apr2025.py" to take saved features + encoder -> to re-train driver and track model.
+New team-driver mapping in place. New team-constrained driver model. 
+*****************************************************************
+Apr 14 Monday:
+
+Code still running, takes 50 mins for 1 iteration. PC is laggy, not much can be done.
+
+WASPAA paper format review.
+
+Search ML research groups @GaTech + labs/faculty.
+*****************************************************************
+Apr 13 Sunday:
 
 Got awesome performance from yesrterday's model. Really happy with the scores!
 
@@ -21,7 +41,7 @@ Scripted a custom predictor.py code to display Pitch Contours + top 3 prediction
 
 But I can't settle. Improved the model to make it more robust. Added a team-driver awareness since team was performing extremely well and driver model could be leveraged over that.
 
-Now editing the raw race footage for 4 more tracks since anyway I had the lap timings + for now this would be the last iteration I plan to run -> should move to writing the arXiv pre-print paper next.
+Decided there is no time to edit other race footages. Need to work with what we have. Started running train_15Apr2025.py
 *****************************************************************
 Apr 12 Saturday:
 
