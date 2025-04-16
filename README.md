@@ -2,6 +2,10 @@
 Everyday log of my progress in Machine Learning, my project development and learnings
 
 *****************************************************************
+Apr 16 Wednesday:
+
+Apr17 version and the team-wise driver model had only ~50% accuracy -> decided not to go ahead with this since I noticed severe bias and scores of Apr15 were slightly better
+*****************************************************************
 Apr 15 Tuesday:
 
 Got good results: team-99.24, driver-87.76, track-91.81
